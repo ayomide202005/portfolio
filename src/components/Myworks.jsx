@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, Code, Palette, Smartphone, Globe, ArrowRight, Eye } from 'lucide-react';
-import health from '../assets/project3image.jpeg'; // Placeholder image for the Health & Fitness Tracker project
+
 const MyWorks = () => {
   const [hoveredProject, setHoveredProject] = useState(null);
 
@@ -25,7 +25,7 @@ const MyWorks = () => {
       description: "Mobile-first application for tracking workouts, nutrition, and health metrics with personalized insights and recommendations.",
       longDescription: "A comprehensive fitness tracking app with workout logging, nutrition tracking, progress analytics, and AI-powered recommendations.",
       tags: ["React Native", "GraphQL", "TypeScript", "Apollo"],
-      image: health,
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
       category: "Mobile",
       liveUrl: "https://fitness-tracker-demo.vercel.app",
       codeUrl: "https://github.com/username/fitness-tracker",
