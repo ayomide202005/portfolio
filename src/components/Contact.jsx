@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-6">
+    <section className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20 px-6" id='contact'>
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
@@ -59,7 +59,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg ">
+        <div className="bg-white  rounded-xl shadow-lg ">
           <div className="md:flex">
             {/* Contact Form */}
             <div className="p-8 md:p-10 md:w-2/3">
@@ -134,7 +134,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="bg-[#2d2d2d] p-8 md:p-10 md:w-1/3">
+            <div className=" bg-white dark:bg-gray-900 p-8 md:p-10 md:w-1/3">
               <h3 className="text-xl font-bold text-yellow-500 mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-start">

@@ -92,7 +92,7 @@ const MyWorks = () => {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative overflow-hidden" id='myworks'>
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_25%_25%,#3b82f6_2px,transparent_2px)] bg-[length:60px_60px]"></div>
