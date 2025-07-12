@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import project1Image from '../assets/Report.jpg'; // Your first project image
-import project2Image from '../assets/project2image.jpg'; // Your second project image
+// import project2Image from '../assets/project2image.jpg'; // Your second project image
 import project3Image from '../assets/project3image.jpeg'; // Your third project image
 
 const Myworks = () => {
@@ -20,7 +20,7 @@ const Myworks = () => {
       title: "Task Management App",
       description: "Productivity application with real-time collaboration features.",
       tags: ["Next.js", "Firebase", "Tailwind CSS"],
-      image: project2Image, // Using imported image
+      image: project1Image, // Using imported image
       liveUrl: "#",
       codeUrl: "#"
     },
