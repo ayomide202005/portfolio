@@ -1,8 +1,8 @@
 import React from 'react';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
-import project1Image from '../assets/Report.jpg'; // Your first project image
-import project2Image from '../assets/project2image.jpg'; // Your second project image
-import project3Image from "../assets/project3image.jpeg";
+// import project1Image from '../assets/Report.jpg'; // Your first project image
+// import project2Image from '../assets/project2image.jpg'; // Your second project image
+// import project3Image from "../assets/project3image.jpeg";
 
 const Myworks = () => {
   const projects = [
@@ -11,7 +11,7 @@ const Myworks = () => {
       title: "E-Commerce Platform",
       description: "Full-stack e-commerce solution with payment processing and admin dashboard.",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: project1Image,
+      image: "../assets/Report.jpg",
       liveUrl: "#",
       codeUrl: "#"
     },
@@ -20,7 +20,7 @@ const Myworks = () => {
       title: "Task Management App",
       description: "Productivity application with real-time collaboration features.",
       tags: ["Next.js", "Firebase", "Tailwind CSS"],
-      image: project2Image,
+      image: "../assets/project2image.jpg",
       liveUrl: "#",
       codeUrl: "#"
     },
@@ -29,7 +29,7 @@ const Myworks = () => {
       title: "Health & Fitness Tracker",
       description: "Mobile-first application for tracking workouts and nutrition.",
       tags: ["React Native", "GraphQL", "TypeScript"],
-      image: project3Image,
+      image: "../assets/project3image.jpeg",
       liveUrl: "#",
       codeUrl: "#"
     }
