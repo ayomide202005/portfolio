@@ -32,12 +32,12 @@ const Experience = () => {
     { name: 'React/Next.js', level: 95 },
     { name: 'Node.js', level: 90 },
     { name: 'TypeScript', level: 88 },
-    { name: 'AWS/GCP', level: 85 },
-    { name: 'UI/UX', level: 80 }
+    { name: 'Wordpress', level: 85 },
+    { name: 'Business plan/Pitch deck', level: 80 }
   ];
 
   const stats = [
-    { value: '5+', label: 'Years Experience' },
+    { value: '4+', label: 'Years Experience' },
     { value: '40+', label: 'Projects Delivered' },
     { value: '100%', label: 'Client Satisfaction' }
   ];

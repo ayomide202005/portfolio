@@ -40,8 +40,8 @@ const Aboutme = () => {
             <p className="text-gray-700 dark:text-gray-300 mb-8 text-lg leading-relaxed">
               I am a dedicated and passionate full-stack developer with a strong
               background in creating performant, accessible, and user-friendly
-              web applications. With 5 years of industry experience, I
-              specialize in modern JavaScript frameworks, cloud architecture,
+              web applications. With 4 years of industry experience, I
+              specialize in modern JavaScript frameworks, Wordpress website design,
               and UI/UX design.
             </p>
 
@@ -64,7 +64,7 @@ const Aboutme = () => {
                   </svg>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  <span className="font-semibold">10+ years</span> of
+                  <span className="font-semibold">4+ years</span> of
                   professional experience building scalable applications
                 </p>
               </div>
